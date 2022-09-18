@@ -1,60 +1,61 @@
-@font-face {
-    font-family: "bilbo" ;
-    src: url("Inkgasm.otf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-
+#videoluz {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
 
 
 .fotoaalex {
     position:fixed ;
     width: 200px;
-    left: 1150px;
+    left: 800px;
+    top: 320px;
 }
 .nome {
     z-index: 1;
     font-size: 35px;
-    color: rgb(0, 0, 0);
-    background-color: blanchedalmond;
+    color: rgb(67, 119, 197);
     position:fixed;
-    top: 110px;
+    top: 20px;
+    left: 700px;
 }
 .texto_quem_sou {
+    z-index: 2;
     font-size: 35px;
-    color: rgb(0, 0, 0);
-  background-color: blanchedalmond;
+    color: rgb(50, 117, 204);
+    background-color: rgb(0, 0, 0);
     position:absolute;
-    top: 10%;
-    width: 1100px;
+    top: 950px;
     border-style: dashed;
 }
 .ul1{
     border-style: dashed;
-    color: rgb(0, 0, 0);
-    background-color: blanchedalmond;
+    color: rgb(50, 117, 204);
+    background-color: rgb(0, 0, 0);
     font-size: 35px;
     position:absolute;
-    top:730px
+    top:1750px
 }
 .status{
     border-style: dashed;
-    color: rgb(0, 0, 0);
-    background-color: blanchedalmond;
-    font-size: 35px;
+    color: rgb(50, 117, 204);
+    background-color: rgb(0, 0, 0);
+    font-size: 30px;
     position:absolute;
-    top:1280px
+    top:2300px;
+    left: 1500px;
 }
-body {
-    font-family: "bilbo";
-    background-image: url("https://cdn.vox-cdn.com/thumbor/yKBVtymLZ4CrI-esi4k03CWSWBA=/0x0:8200x6000/1920x0/filters:focal(0x0:8200x6000):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/23985893/6_eu5kv9gd5wq8eiog5qjevre53wq0xm24.jpg");
-    background-color: #cccccc;
-   }
+
 h2{
     z-index: 1;
     color: rgb(0, 0, 0);
-    background-color: blanchedalmond;
+    background-color: rgb(6, 214, 100);
     position:fixed;
 }
 .ninja{
@@ -67,4 +68,17 @@ h2{
     width: 200px;
     left: 1150px;
     top: 250px;
+}
+.equipas{
+    font-family: monospace;
+    border-style: dashed;
+    color: rgb(50, 117, 204);
+    background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    position:absolute;
+    top:1600px;
+    left:1375px;
+}
+body{
+    font-family: monospace;
 }
