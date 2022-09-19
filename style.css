@@ -14,7 +14,7 @@
 .fotoaalex {
     position:fixed ;
     width: 200px;
-    left: 44%;
+    left: 42%;
     top: 35%;
 }
 .nome {
@@ -23,7 +23,7 @@
     color: rgb(67, 119, 197);
     position:fixed;
     top: 20px;
-    left: 700px;
+    left: 680px;
 }
 .texto_quem_sou {
     z-index: 2;
@@ -41,6 +41,7 @@
     position:absolute;
     top:1700px;
     font-size: 25px;
+    left: 60px
 }
 .status{
     border-style: dashed;
@@ -84,7 +85,7 @@ body{
 }
 .hpbar{
     width: 480px;
-    top: 2300px;
+    top: 2350px;
     position: absolute;
 }
 ul:hover{
@@ -103,4 +104,22 @@ ul{
     font-size: 25px;
     left: 1380px;
     z-index: 1;
+}
+.equipiconn{
+    height: 285px;
+    position:absolute;
+    top:1680px;
+    font-size: 25px;
+    left: 1330px;
+    z-index: 1;
+    height: 90px;
+}
+.habiconn{
+    height: 285px;
+    position:absolute;
+    top:1680px;
+    font-size: 25px;
+    left: 13px;
+    z-index: 1;
+    height: 90px;
 }
