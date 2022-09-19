@@ -82,6 +82,7 @@ h2{
 }
 body{
     font-family: monospace;
+    height: 2600px;
 }
 .hpbar{
     width: 480px;
